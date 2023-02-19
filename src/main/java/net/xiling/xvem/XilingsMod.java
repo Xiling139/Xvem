@@ -17,6 +17,7 @@ public class XilingsMod {
     public static final String MOD_ID = "xvem";
     private static final Logger LOGGER = LogUtils.getLogger();
 
+    //Very Important Comment
     public XilingsMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 

@@ -22,15 +22,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MATERIAL_TAB);
+                    .strength(4f).requiresCorrectToolForDrops()), ModCreativeModeTab.MATERIAL_TAB);
 
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MATERIAL_TAB);
+                    .strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.MATERIAL_TAB);
 
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MATERIAL_TAB);
+                    .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.MATERIAL_TAB);
     public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MATERIAL_TAB);

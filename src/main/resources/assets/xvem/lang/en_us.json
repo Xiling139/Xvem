@@ -2,9 +2,14 @@
   "item.xvem.steel_ingot": "Steel Ingot",
   "item.xvem.ruby": "Ruby",
 
+  "item.xvem.power_core": "Power Core",
+
   "block.xvem.ruby_block": "Block of Ruby",
   "block.xvem.ruby_ore": "Ruby ore",
   "block.xvem.deepslate_ruby_ore": "Deepslate Ruby Ore",
 
-  "itemGroup.materialtab": "Materials"
+  "block.xvem.steel_block": "Block of Steel",
+
+  "itemGroup.materialtab": "Materials",
+  "itemGroup.industrytab": "Industry"
 }

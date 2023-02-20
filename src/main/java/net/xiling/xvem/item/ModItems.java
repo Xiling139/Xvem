@@ -18,6 +18,8 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MATERIAL_TAB)));
 
+    public static final RegistryObject<Item> POWER_CORE = ITEMS.register("power_core",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.INDUSTRY_TAB)));
 
     public static void  register(IEventBus eventBus) {
         ITEMS.register(eventBus);

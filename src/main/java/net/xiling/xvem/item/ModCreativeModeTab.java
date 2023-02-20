@@ -11,4 +11,12 @@ public class ModCreativeModeTab {
         }
     };
 
+    public static final CreativeModeTab INDUSTRY_TAB = new CreativeModeTab("industrytab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.POWER_CORE.get());
+        }
+    };
+
+
 }

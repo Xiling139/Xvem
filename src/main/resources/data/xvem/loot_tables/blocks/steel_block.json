@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:steel_block"
+          "name": "xvem:steel_block"
         }
       ],
       "rolls": 1.0

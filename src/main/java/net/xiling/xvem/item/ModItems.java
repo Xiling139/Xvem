@@ -1,12 +1,14 @@
 package net.xiling.xvem.item;
 
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.vehicle.AbstractMinecart;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.MinecartItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.xiling.xvem.XilingsMod;
+import net.xiling.xvem.entity.ModEntityTypes;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -20,6 +22,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> POWER_CORE = ITEMS.register("power_core",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.INDUSTRY_TAB)));
+
+    public static final RegistryObject<Item> EXPRESS_TRAIN = ITEMS.register("express_train",
+            () -> new MinecartItem(AbstractMinecart.Type.RIDEABLE,
+                    new Item.Properties().tab(ModCreativeModeTab.INDUSTRY_TAB).stacksTo(1)));
 
     public static void  register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    }
+  },
+  "pattern": [
+    " I ",
+    "ICI",
+    " I "
+  ],
+  "result": {
+    "item": "xvem:steel_ingot",
+    "count": 4
+  }
+}

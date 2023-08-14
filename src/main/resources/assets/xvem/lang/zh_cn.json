@@ -1,0 +1,17 @@
+{
+  "item.xvem.steel_ingot": "钢铁锭",
+  "item.xvem.ruby": "红宝石",
+
+  "item.xvem.power_core": "力量核心",
+
+  "item.xvem.express_train": "快速列车",
+
+  "block.xvem.ruby_block": "红宝石方块",
+  "block.xvem.ruby_ore": "红宝石矿石",
+  "block.xvem.deepslate_ruby_ore": "深层红宝石矿石",
+
+  "block.xvem.steel_block": "钢铁方块",
+
+  "itemGroup.materialtab": "原材料",
+  "itemGroup.industrytab": "产业"
+}

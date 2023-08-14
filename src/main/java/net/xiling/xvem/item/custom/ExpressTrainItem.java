@@ -12,7 +12,6 @@ import net.minecraft.world.level.block.BaseRailBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.RailShape;
 import net.minecraft.world.level.gameevent.GameEvent;
-import net.minecraftforge.common.Tags;
 import net.xiling.xvem.entity.ModEntityTypes;
 import net.xiling.xvem.entity.custom.ModMinecartEntity;
 
@@ -37,7 +36,7 @@ public class ExpressTrainItem extends MinecartItem {
                     d0 = 0.5D;
                 }
 
-                AbstractMinecart abstractminecart = new ModMinecartEntity(level, (double)blockpos.getX() + 0.5D, (double)blockpos.getY() + 0.0625D + d0, (double)blockpos.getZ() + 0.5D);
+                AbstractMinecart abstractminecart = new ModMinecartEntity(ModEntityTypes.EXPRESS_TRAIN.get(), level, (double)blockpos.getX() + 0.5D, (double)blockpos.getY() + 0.0625D + d0, (double)blockpos.getZ() + 0.5D);
                 if (itemstack.hasCustomHoverName()) {
                     abstractminecart.setCustomName(itemstack.getHoverName());
                 }

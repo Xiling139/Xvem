@@ -1,8 +1,8 @@
 package net.xiling.xvem;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -11,7 +11,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.xiling.xvem.block.ModBlocks;
+import net.xiling.xvem.block.VanillaBlocks;
 import net.xiling.xvem.entity.ModEntityTypes;
+import net.xiling.xvem.entity.client.ExpressTrainModel;
 import net.xiling.xvem.entity.client.ExpressTrainRenderer;
 import net.xiling.xvem.item.ModItems;
 import org.slf4j.Logger;
@@ -29,6 +31,7 @@ public class XilingsMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        VanillaBlocks.register(modEventBus);
 
         ModEntityTypes.register(modEventBus);
 
@@ -46,6 +49,11 @@ public class XilingsMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntityTypes.EXPRESS_TRAIN.get(), ExpressTrainRenderer::new);
+        }
+
+        @SubscribeEvent
+        public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+            event.registerLayerDefinition(ExpressTrainModel.EXPRESS_LAYER, ExpressTrainModel::createBodyLayer);
         }
     }
 }

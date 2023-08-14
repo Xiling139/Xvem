@@ -9,6 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.xiling.xvem.XilingsMod;
 import net.xiling.xvem.entity.ModEntityTypes;
+import net.xiling.xvem.item.custom.ExpressTrainItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -24,7 +25,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.INDUSTRY_TAB)));
 
     public static final RegistryObject<Item> EXPRESS_TRAIN = ITEMS.register("express_train",
-            () -> new MinecartItem(AbstractMinecart.Type.RIDEABLE,
+            () -> new ExpressTrainItem(AbstractMinecart.Type.RIDEABLE,
                     new Item.Properties().tab(ModCreativeModeTab.INDUSTRY_TAB).stacksTo(1)));
 
     public static void  register(IEventBus eventBus) {

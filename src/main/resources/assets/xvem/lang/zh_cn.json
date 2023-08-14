@@ -3,8 +3,10 @@
   "item.xvem.ruby": "红宝石",
 
   "item.xvem.power_core": "力量核心",
+  "item.xvem.advanced_power_core": "高级力量核心",
 
   "item.xvem.express_train": "快速列车",
+  "item.xvem.super_express_train": "特快列车",
 
   "block.xvem.ruby_block": "红宝石方块",
   "block.xvem.ruby_ore": "红宝石矿石",
@@ -14,4 +16,5 @@
 
   "itemGroup.materialtab": "原材料",
   "itemGroup.industrytab": "产业"
+
 }

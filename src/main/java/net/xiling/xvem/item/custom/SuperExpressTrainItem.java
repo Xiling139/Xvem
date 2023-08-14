@@ -13,10 +13,10 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.RailShape;
 import net.minecraft.world.level.gameevent.GameEvent;
 import net.xiling.xvem.entity.ModEntityTypes;
-import net.xiling.xvem.entity.custom.ExpressTrain;
+import net.xiling.xvem.entity.custom.SuperExpressTrain;
 
-public class ExpressTrainItem extends MinecartItem {
-    public ExpressTrainItem(AbstractMinecart.Type p_42938_, Properties p_42939_) {
+public class SuperExpressTrainItem extends MinecartItem {
+    public SuperExpressTrainItem(AbstractMinecart.Type p_42938_, Properties p_42939_) {
         super(p_42938_, p_42939_);
     }
 
@@ -36,7 +36,7 @@ public class ExpressTrainItem extends MinecartItem {
                     d0 = 0.5D;
                 }
 
-                AbstractMinecart abstractminecart = new ExpressTrain(ModEntityTypes.EXPRESS_TRAIN.get(), level, (double)blockpos.getX() + 0.5D, (double)blockpos.getY() + 0.0625D + d0, (double)blockpos.getZ() + 0.5D);
+                AbstractMinecart abstractminecart = new SuperExpressTrain(ModEntityTypes.SUPER_EXPRESS_TRAIN.get(), level, (double)blockpos.getX() + 0.5D, (double)blockpos.getY() + 0.0625D + d0, (double)blockpos.getZ() + 0.5D);
                 if (itemstack.hasCustomHoverName()) {
                     abstractminecart.setCustomName(itemstack.getHoverName());
                 }

@@ -10,18 +10,16 @@ import net.minecraft.client.model.geom.builders.MeshDefinition;
 import net.minecraft.client.model.geom.builders.PartDefinition;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.vehicle.AbstractMinecart;
-import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.xiling.xvem.XilingsMod;
-import net.xiling.xvem.entity.custom.ExpressTrain;
+import net.xiling.xvem.entity.custom.SuperExpressTrain;
 
-public class ExpressTrainModel<T extends AbstractMinecart> extends MinecartModel<ExpressTrain> {
-    public ExpressTrainModel(ModelPart root) {
+public class SuperExpressTrainModel<T extends AbstractMinecart> extends MinecartModel<SuperExpressTrain> {
+    public SuperExpressTrainModel(ModelPart root) {
         super(root);
     }
 
-    public static ModelLayerLocation EXPRESS_LAYER = new ModelLayerLocation(
-            new ResourceLocation(XilingsMod.MOD_ID, "express_train"), "main");
+    public static ModelLayerLocation SUPER_EXPRESS_LAYER = new ModelLayerLocation(
+            new ResourceLocation(XilingsMod.MOD_ID, "super_express_train"), "main");
 
     public static LayerDefinition createBodyLayer() {
         MeshDefinition meshdefinition = new MeshDefinition();
@@ -41,11 +39,5 @@ public class ExpressTrainModel<T extends AbstractMinecart> extends MinecartModel
     @Override
     public ModelPart root() {
         return super.root();
-    }
-
-    @SubscribeEvent
-    public static void registerLayerDefinition(EntityRenderersEvent.RegisterLayerDefinitions event) {
-
-        event.registerLayerDefinition(EXPRESS_LAYER, ExpressTrainModel::createBodyLayer);
     }
 }

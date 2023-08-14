@@ -15,6 +15,8 @@ import net.xiling.xvem.block.VanillaBlocks;
 import net.xiling.xvem.entity.ModEntityTypes;
 import net.xiling.xvem.entity.client.ExpressTrainModel;
 import net.xiling.xvem.entity.client.ExpressTrainRenderer;
+import net.xiling.xvem.entity.client.SuperExpressTrainModel;
+import net.xiling.xvem.entity.client.SuperExpressTrainRenderer;
 import net.xiling.xvem.item.ModItems;
 import org.slf4j.Logger;
 
@@ -49,11 +51,13 @@ public class XilingsMod {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntityTypes.EXPRESS_TRAIN.get(), ExpressTrainRenderer::new);
+            EntityRenderers.register(ModEntityTypes.SUPER_EXPRESS_TRAIN.get(), SuperExpressTrainRenderer::new);
         }
 
         @SubscribeEvent
         public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
             event.registerLayerDefinition(ExpressTrainModel.EXPRESS_LAYER, ExpressTrainModel::createBodyLayer);
+            event.registerLayerDefinition(SuperExpressTrainModel.SUPER_EXPRESS_LAYER, SuperExpressTrainModel::createBodyLayer);
         }
     }
 }

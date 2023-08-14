@@ -3,8 +3,10 @@
   "item.xvem.ruby": "ルビー",
 
   "item.xvem.power_core": "パワーコア",
+  "item.xvem.advanced_power_core": "高級パワーコア",
 
   "item.xvem.express_train": "急行列車",
+  "item.xvem.super_express_train": "特急列車",
 
   "block.xvem.ruby_block": "ルビーブロック",
   "block.xvem.ruby_ore": "ルビー鉱石",
@@ -13,5 +15,5 @@
   "block.xvem.steel_block": "鋼鉄ブロック",
 
   "itemGroup.materialtab": "原料",
-  "itemGroup.industrytab": "産業"
+  "itemGroup.industrytab": "産業",
 }

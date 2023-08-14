@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "xvem:power_core"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DPD",
+    "DDD"
+  ],
+  "result": {
+    "item": "xvem:advanced_power_core"
+  }
+}

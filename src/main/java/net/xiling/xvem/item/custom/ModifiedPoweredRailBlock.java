@@ -1,7 +1,6 @@
 package net.xiling.xvem.item.custom;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.vehicle.AbstractMinecart;
 import net.minecraft.world.entity.vehicle.MinecartFurnace;
 import net.minecraft.world.level.Level;
@@ -9,7 +8,8 @@ import net.minecraft.world.level.block.PoweredRailBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.RailShape;
 import net.xiling.xvem.entity.ModEntityTypes;
-import net.xiling.xvem.entity.custom.ModMinecartEntity;
+import net.xiling.xvem.entity.custom.ExpressTrain;
+import net.xiling.xvem.entity.custom.SuperExpressTrain;
 
 public class ModifiedPoweredRailBlock extends PoweredRailBlock {
 
@@ -23,7 +23,8 @@ public class ModifiedPoweredRailBlock extends PoweredRailBlock {
     public float getRailMaxSpeed(BlockState state, Level level, BlockPos pos, AbstractMinecart cart)
     {
         if (cart instanceof MinecartFurnace) return cart.isInWater() ? 0.15f : 0.2f;
-        else if (cart instanceof ModMinecartEntity) return cart.isInWater() ? 0.35f : 0.69444f;
+        else if (cart instanceof ExpressTrain) return cart.isInWater() ? 0.28f : 0.55555f;
+        else if (cart instanceof SuperExpressTrain) return cart.isInWater() ? 0.42f : 0.83333f;
         else return cart.isInWater() ? 0.2f : 0.4f;
     }
 

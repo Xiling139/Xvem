@@ -4,9 +4,9 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MinecartRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.xiling.xvem.XilingsMod;
-import net.xiling.xvem.entity.custom.ModMinecartEntity;
+import net.xiling.xvem.entity.custom.ExpressTrain;
 
-public class ExpressTrainRenderer extends MinecartRenderer<ModMinecartEntity> {
+public class ExpressTrainRenderer extends MinecartRenderer<ExpressTrain> {
 
     private static final ResourceLocation EXPRESS_TEXTURE =
             new ResourceLocation(XilingsMod.MOD_ID, "textures/entity/minecart/express.png");
@@ -16,7 +16,7 @@ public class ExpressTrainRenderer extends MinecartRenderer<ModMinecartEntity> {
     }
 
     @Override
-    public ResourceLocation getTextureLocation(ModMinecartEntity entity) {
+    public ResourceLocation getTextureLocation(ExpressTrain entity) {
         return EXPRESS_TEXTURE;
     }
 

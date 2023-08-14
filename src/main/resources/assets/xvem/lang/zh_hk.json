@@ -1,0 +1,19 @@
+{
+  "item.xvem.steel_ingot": "鋼鐵錠",
+  "item.xvem.ruby": "紅寶石",
+
+  "item.xvem.power_core": "力量核心",
+  "item.xvem.advanced_power_core": "高級力量核心",
+
+  "item.xvem.express_train": "快速列車",
+  "item.xvem.super_express_train": "特快列車",
+
+  "block.xvem.ruby_block": "紅寶石方塊",
+  "block.xvem.ruby_ore": "紅寶石礦石",
+  "block.xvem.deepslate_ruby_ore": "深層紅寶石礦石",
+
+  "block.xvem.steel_block": "鋼鐵方塊",
+
+  "itemGroup.materialtab": "原材料",
+  "itemGroup.industrytab": "產業"
+}

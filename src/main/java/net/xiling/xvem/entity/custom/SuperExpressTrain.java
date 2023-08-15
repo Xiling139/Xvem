@@ -29,7 +29,7 @@ public class SuperExpressTrain extends AbstractMinecart {
             return InteractionResult.PASS;
         } else if (this.isVehicle()) {
             return InteractionResult.PASS;
-        } else if (!this.level.isClientSide) {
+        } else if (!this.level().isClientSide) {
             return p_38483_.startRiding(this) ? InteractionResult.CONSUME : InteractionResult.PASS;
         } else {
             return InteractionResult.SUCCESS;

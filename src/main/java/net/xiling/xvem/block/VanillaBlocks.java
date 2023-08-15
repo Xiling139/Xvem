@@ -1,10 +1,9 @@
 package net.xiling.xvem.block;
 
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -18,7 +17,7 @@ public class VanillaBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, "minecraft");
 
     public static final RegistryObject<Block> POWERED_RAIL = registerBlock("powered_rail",
-            () -> new ModifiedPoweredRailBlock(BlockBehaviour.Properties.of(Material.DECORATION)
+            () -> new ModifiedPoweredRailBlock(BlockBehaviour.Properties.copy(Blocks.POWERED_RAIL)
                     .noCollission().strength(0.7F).sound(SoundType.METAL), true));
 
 

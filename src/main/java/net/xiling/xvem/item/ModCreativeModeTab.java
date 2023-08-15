@@ -1,30 +1,28 @@
 package net.xiling.xvem.item;
 
+import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.event.CreativeModeTabEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.RegistryObject;
 import net.xiling.xvem.XilingsMod;
 
-@Mod.EventBusSubscriber(modid = XilingsMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModCreativeModeTab {
-    public static CreativeModeTab MATERIAL_TAB;
-    public static CreativeModeTab INDUSTRY_TAB;
-    public static CreativeModeTab SUPER_TOOLS_TAB;
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB,
+            XilingsMod.MOD_ID);
 
-    @SubscribeEvent
-    public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
-        MATERIAL_TAB = event.registerCreativeModeTab(new ResourceLocation(XilingsMod.MOD_ID, "material_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.RUBY.get())).title(Component.translatable("Materials")).build());
+    public static RegistryObject<CreativeModeTab> MATERIAL_TAB = CREATIVE_MODE_TABS.register("material_tab", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get())).title(Component.translatable("Materials")).build());
 
-        INDUSTRY_TAB = event.registerCreativeModeTab(new ResourceLocation(XilingsMod.MOD_ID, "industry_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.POWER_CORE.get())).title(Component.translatable("Industry")).build());
+    public static RegistryObject<CreativeModeTab> INDUSTRY_TAB = CREATIVE_MODE_TABS.register("industry_tab", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.POWER_CORE.get())).title(Component.translatable("Industry")).build());
 
-        SUPER_TOOLS_TAB = event.registerCreativeModeTab(new ResourceLocation(XilingsMod.MOD_ID, "super_tools_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.POWER_CORE.get())).title(Component.translatable("Suepr Tools")).build());
+    public static RegistryObject<CreativeModeTab> SUPER_TOOLS_TAB = CREATIVE_MODE_TABS.register("super_tools_tab", () ->
+            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STAR_PICKAXE.get())).title(Component.translatable("Suepr Tools")).build());;
+
+    public static void register(IEventBus eventBus) {
+        CREATIVE_MODE_TABS.register(eventBus);
     }
-
 }

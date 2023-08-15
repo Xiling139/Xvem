@@ -4,7 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -33,6 +33,8 @@ public class XilingsMod {
     public XilingsMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTab.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         VanillaBlocks.register(modEventBus);
@@ -48,8 +50,8 @@ public class XilingsMod {
     private void commonSetup(final FMLCommonSetupEvent event) {
     }
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if(event.getTab() == ModCreativeModeTab.MATERIAL_TAB) {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTab() == ModCreativeModeTab.MATERIAL_TAB.get()) {
             event.accept(ModItems.RUBY);
             event.accept(ModBlocks.RUBY_BLOCK);
             event.accept(ModBlocks.RUBY_ORE);
@@ -59,7 +61,7 @@ public class XilingsMod {
 
         }
 
-        if(event.getTab() == ModCreativeModeTab.INDUSTRY_TAB) {
+        if(event.getTab() == ModCreativeModeTab.INDUSTRY_TAB.get()) {
             event.accept(ModItems.POWER_CORE);
             event.accept(ModItems.ADVENCED_POWER_CORE);
             event.accept(ModItems.EXPRESS_TRAIN);
@@ -67,7 +69,7 @@ public class XilingsMod {
 
         }
 
-        if(event.getTab() == ModCreativeModeTab.SUPER_TOOLS_TAB) {
+        if(event.getTab() == ModCreativeModeTab.SUPER_TOOLS_TAB.get()) {
             event.accept(ModItems.DIAMOND_STICK);
             event.accept(ModItems.STAR_PICKAXE);
 

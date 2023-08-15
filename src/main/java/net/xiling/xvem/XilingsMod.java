@@ -66,6 +66,12 @@ public class XilingsMod {
             event.accept(ModItems.SUPER_EXPRESS_TRAIN);
 
         }
+
+        if(event.getTab() == ModCreativeModeTab.SUPER_TOOLS_TAB) {
+            event.accept(ModItems.DIAMOND_STICK);
+            event.accept(ModItems.STAR_PICKAXE);
+
+        }
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

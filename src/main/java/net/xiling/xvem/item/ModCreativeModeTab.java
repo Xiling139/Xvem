@@ -13,6 +13,7 @@ import net.xiling.xvem.XilingsMod;
 public class ModCreativeModeTab {
     public static CreativeModeTab MATERIAL_TAB;
     public static CreativeModeTab INDUSTRY_TAB;
+    public static CreativeModeTab SUPER_TOOLS_TAB;
 
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
@@ -21,6 +22,9 @@ public class ModCreativeModeTab {
 
         INDUSTRY_TAB = event.registerCreativeModeTab(new ResourceLocation(XilingsMod.MOD_ID, "industry_tab"),
                 builder -> builder.icon(() -> new ItemStack(ModItems.POWER_CORE.get())).title(Component.translatable("Industry")).build());
+
+        SUPER_TOOLS_TAB = event.registerCreativeModeTab(new ResourceLocation(XilingsMod.MOD_ID, "super_tools_tab"),
+                builder -> builder.icon(() -> new ItemStack(ModItems.POWER_CORE.get())).title(Component.translatable("Suepr Tools")).build());
     }
 
 }

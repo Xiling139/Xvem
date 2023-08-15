@@ -5,6 +5,9 @@
   "item.xvem.power_core": "力量核心",
   "item.xvem.advanced_power_core": "高級力量核心",
 
+  "item.xvem.diamond_stick": "鑽石棍",
+  "item.xvem.star_pickaxe": "星鎬",
+
   "item.xvem.express_train": "快速列車",
   "item.xvem.super_express_train": "特快列車",
 
@@ -14,6 +17,7 @@
 
   "block.xvem.steel_block": "鋼鐵方塊",
 
-  "itemGroup.materialtab": "原材料",
-  "itemGroup.industrytab": "產業"
+  "itemGroup.material_tab": "原材料",
+  "itemGroup.industry_tab": "產業",
+  "itemGroup.super_tools_tab": "高級工具"
 }

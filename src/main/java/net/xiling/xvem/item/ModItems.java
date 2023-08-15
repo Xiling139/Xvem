@@ -2,12 +2,14 @@ package net.xiling.xvem.item;
 
 import net.minecraft.world.entity.vehicle.AbstractMinecart;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.xiling.xvem.XilingsMod;
 import net.xiling.xvem.item.custom.ExpressTrainItem;
+import net.xiling.xvem.item.custom.ModToolTiers;
 import net.xiling.xvem.item.custom.SuperExpressTrainItem;
 
 public class ModItems {
@@ -23,6 +25,13 @@ public class ModItems {
     public static final RegistryObject<Item> POWER_CORE = ITEMS.register("power_core",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ADVENCED_POWER_CORE = ITEMS.register("advanced_power_core",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> STAR_PICKAXE = ITEMS.register("star_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.STAR, 1, -2.8F,
+                    new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> DIAMOND_STICK = ITEMS.register("diamond_stick",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> EXPRESS_TRAIN = ITEMS.register("express_train",

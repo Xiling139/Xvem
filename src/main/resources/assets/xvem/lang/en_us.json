@@ -5,6 +5,9 @@
   "item.xvem.power_core": "Power Core",
   "item.xvem.advanced_power_core": "Advanced Power Core",
 
+  "item.xvem.diamond_stick": "Diamond Stick",
+  "item.xvem.star_pickaxe": "Star Pickaxe",
+
   "item.xvem.express_train": "Express Train",
   "item.xvem.super_express_train": "Super Express Train",
 
@@ -14,6 +17,7 @@
 
   "block.xvem.steel_block": "Block of Steel",
 
-  "itemGroup.materialtab": "Materials",
-  "itemGroup.industrytab": "Industry"
+  "itemGroup.material_tab": "Materials",
+  "itemGroup.industry_tab": "Industry",
+  "itemGroup.super_tools_tab": "Super Tools"
 }

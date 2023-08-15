@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " N ",
+    " D "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "N": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "D": {
+      "item": "xvem:diamond_stick"
+    }
+  },
+  "result": {
+    "item": "xvem:star_pickaxe"
+  }
+}

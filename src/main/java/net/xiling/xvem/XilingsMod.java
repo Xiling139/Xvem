@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -17,6 +18,7 @@ import net.xiling.xvem.entity.client.ExpressTrainModel;
 import net.xiling.xvem.entity.client.ExpressTrainRenderer;
 import net.xiling.xvem.entity.client.SuperExpressTrainModel;
 import net.xiling.xvem.entity.client.SuperExpressTrainRenderer;
+import net.xiling.xvem.item.ModCreativeModeTab;
 import net.xiling.xvem.item.ModItems;
 import org.slf4j.Logger;
 
@@ -40,9 +42,30 @@ public class XilingsMod {
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
+        modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+    }
+
+    private void addCreative(CreativeModeTabEvent.BuildContents event) {
+        if(event.getTab() == ModCreativeModeTab.MATERIAL_TAB) {
+            event.accept(ModItems.RUBY);
+            event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.RUBY_ORE);
+            event.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
+            event.accept(ModItems.STEEL_INGOT);
+            event.accept(ModBlocks.STEEL_BLOCK);
+
+        }
+
+        if(event.getTab() == ModCreativeModeTab.INDUSTRY_TAB) {
+            event.accept(ModItems.POWER_CORE);
+            event.accept(ModItems.ADVENCED_POWER_CORE);
+            event.accept(ModItems.EXPRESS_TRAIN);
+            event.accept(ModItems.SUPER_EXPRESS_TRAIN);
+
+        }
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

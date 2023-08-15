@@ -19,11 +19,11 @@ public class VanillaBlocks {
 
     public static final RegistryObject<Block> POWERED_RAIL = registerBlock("powered_rail",
             () -> new ModifiedPoweredRailBlock(BlockBehaviour.Properties.of(Material.DECORATION)
-                    .noCollission().strength(0.7F).sound(SoundType.METAL), true), CreativeModeTab.TAB_REDSTONE);
+                    .noCollission().strength(0.7F).sound(SoundType.METAL), true));
 
 
 
-    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = VANILLA_BLOCKS.register(name, block);
         return toReturn;
     }

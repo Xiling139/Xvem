@@ -30,7 +30,7 @@ public class ModifiedPoweredRailBlock extends PoweredRailBlock {
 
     @Override
     public boolean findPoweredRailSignal(Level p_55220_, BlockPos p_55221_, BlockState p_55222_, boolean p_55223_, int p_55224_) {
-        if (p_55224_ >= 15) {
+        if (p_55224_ >= 8) {
             return false;
         } else {
             int i = p_55221_.getX();

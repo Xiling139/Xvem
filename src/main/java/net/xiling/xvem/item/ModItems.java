@@ -1,6 +1,5 @@
 package net.xiling.xvem.item;
 
-import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.vehicle.AbstractMinecart;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;

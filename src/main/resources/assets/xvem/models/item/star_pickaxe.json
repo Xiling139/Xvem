@@ -1,5 +1,5 @@
 {
-  "parent": "item/generated",
+  "parent": "xvem:item/handheld",
   "textures": {
     "layer0": "xvem:item/star_pickaxe"
   }

@@ -1,24 +1,31 @@
 {
-  "item.xvem.steel_ingot": "钢铁锭",
-  "item.xvem.ruby": "红宝石",
-
-  "item.xvem.power_core": "力量核心",
-  "item.xvem.advanced_power_core": "高级力量核心",
-
-  "item.xvem.diamond_stick": "钻石棍",
-  "item.xvem.star_pickaxe": "星镐",
-
-  "item.xvem.express_train": "快速列车",
-  "item.xvem.super_express_train": "特快列车",
-
+  "block.xvem.deepslate_ruby_ore": "深层红宝石矿石",
   "block.xvem.ruby_block": "红宝石方块",
   "block.xvem.ruby_ore": "红宝石矿石",
-  "block.xvem.deepslate_ruby_ore": "深层红宝石矿石",
-
+  "block.xvem.star_block": "星方块",
   "block.xvem.steel_block": "钢铁方块",
 
-  "itemGroup.material_tab": "原材料",
-  "itemGroup.industry_tab": "产业",
-  "itemGroup.super_tools_tab": "高级工具"
+  "item.xvem.advanced_power_core": "高级力量核心",
+  "item.xvem.diamond_stick": "钻石棍",
+  "item.xvem.express_train": "快速列车",
+  "item.xvem.power_core": "力量核心",
+  "item.xvem.ruby": "红宝石",
+  "item.xvem.smithing_template.star_upgrade.additions_slot_description": "放入星锭",
+  "item.xvem.smithing_template.star_upgrade.applies_to": "下界合金装备",
+  "item.xvem.smithing_template.star_upgrade.base_slot_description": "放入下界合金盔甲、武器或工具",
+  "item.xvem.smithing_template.star_upgrade.ingredients": "星锭",
+  "item.xvem.star_axe": "星斧",
+  "item.xvem.star_hoe": "星锄",
+  "item.xvem.star_ingot": "星锭",
+  "item.xvem.star_pickaxe": "星镐",
+  "item.xvem.star_shovel": "星锹",
+  "item.xvem.star_sword": "星剑",
+  "item.xvem.steel_ingot": "钢铁锭",
+  "item.xvem.super_express_train": "特快列车",
 
+  "itemGroup.xvem.industry_tab": "产业",
+  "itemGroup.xvem.material_tab": "原材料",
+  "itemGroup.xvem.super_tools_tab": "高级工具",
+
+  "upgrade.xvem.star_upgrade": "下界星升级"
 }

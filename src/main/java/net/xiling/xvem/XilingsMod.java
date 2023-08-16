@@ -58,6 +58,10 @@ public class XilingsMod {
             event.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
             event.accept(ModItems.STEEL_INGOT);
             event.accept(ModBlocks.STEEL_BLOCK);
+            event.accept(ModItems.DIAMOND_STICK);
+            event.accept(ModItems.STAR_INGOT);
+            event.accept(ModBlocks.STAR_BLOCK);
+            event.accept(ModItems.STAR_UPGRADE_SMITHING_TEMPLATE);
 
         }
 
@@ -70,8 +74,12 @@ public class XilingsMod {
         }
 
         if(event.getTab() == ModCreativeModeTab.SUPER_TOOLS_TAB.get()) {
-            event.accept(ModItems.DIAMOND_STICK);
+            event.accept(ModItems.STAR_SWORD);
             event.accept(ModItems.STAR_PICKAXE);
+            event.accept(ModItems.STAR_AXE);
+            event.accept(ModItems.STAR_SHOVEL);
+            event.accept(ModItems.STAR_HOE);
+
 
         }
     }

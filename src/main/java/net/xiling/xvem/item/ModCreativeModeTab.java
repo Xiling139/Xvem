@@ -20,7 +20,7 @@ public class ModCreativeModeTab {
             CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.POWER_CORE.get())).title(Component.translatable("Industry")).build());
 
     public static RegistryObject<CreativeModeTab> SUPER_TOOLS_TAB = CREATIVE_MODE_TABS.register("super_tools_tab", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STAR_PICKAXE.get())).title(Component.translatable("Suepr Tools")).build());;
+            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STAR_PICKAXE.get())).title(Component.translatable("Super Tools")).build());;
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

@@ -7,9 +7,18 @@
 
   "item.xvem.diamond_stick": "鑽石棍",
   "item.xvem.star_pickaxe": "星鎬",
+  "item.xvem.star_axe": "星斧",
+  "item.xvem.star_sword": "星劍",
+  "item.xvem.star_shovel": "星鍫",
+  "item.xvem.star_hoe": "星鋤",
 
   "item.xvem.express_train": "快速列車",
   "item.xvem.super_express_train": "特快列車",
+
+  "item.xvem.smithing_template.star_upgrade.additions_slot_description": "Add Nether Star",
+  "item.xvem.smithing_template.star_upgrade.applies_to": "下界合金裝備",
+  "item.xvem.smithing_template.star_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.xvem.smithing_template.star_upgrade.ingredients": "下界之星",
 
   "block.xvem.ruby_block": "紅寶石方塊",
   "block.xvem.ruby_ore": "紅寶石礦石",
@@ -17,7 +26,7 @@
 
   "block.xvem.steel_block": "鋼鐵方塊",
 
-  "itemGroup.material_tab": "原材料",
-  "itemGroup.industry_tab": "產業",
-  "itemGroup.super_tools_tab": "高級工具"
+  "itemGroup.xvem.industry_tab": "產業",
+  "itemGroup.xvem.material_tab": "原材料",
+  "itemGroup.xvem.super_tools_tab": "高級工具"
 }

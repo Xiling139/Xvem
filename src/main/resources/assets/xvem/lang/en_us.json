@@ -1,23 +1,31 @@
 {
-  "item.xvem.steel_ingot": "Steel Ingot",
-  "item.xvem.ruby": "Ruby",
-
-  "item.xvem.power_core": "Power Core",
-  "item.xvem.advanced_power_core": "Advanced Power Core",
-
-  "item.xvem.diamond_stick": "Diamond Stick",
-  "item.xvem.star_pickaxe": "Star Pickaxe",
-
-  "item.xvem.express_train": "Express Train",
-  "item.xvem.super_express_train": "Super Express Train",
-
+  "block.xvem.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.xvem.ruby_block": "Block of Ruby",
   "block.xvem.ruby_ore": "Ruby ore",
-  "block.xvem.deepslate_ruby_ore": "Deepslate Ruby Ore",
-
+  "block.xvem.star_block": "Star Block",
   "block.xvem.steel_block": "Block of Steel",
 
-  "itemGroup.material_tab": "Materials",
-  "itemGroup.industry_tab": "Industry",
-  "itemGroup.super_tools_tab": "Super Tools"
+  "item.xvem.advanced_power_core": "Advanced Power Core",
+  "item.xvem.diamond_stick": "Diamond Stick",
+  "item.xvem.express_train": "Express Train",
+  "item.xvem.power_core": "Power Core",
+  "item.xvem.ruby": "Ruby",
+  "item.xvem.smithing_template.star_upgrade.additions_slot_description": "Add Star Ingot",
+  "item.xvem.smithing_template.star_upgrade.applies_to": "Netherite Equipment",
+  "item.xvem.smithing_template.star_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.xvem.smithing_template.star_upgrade.ingredients": "Star Ingot",
+  "item.xvem.star_axe": "Star Axe",
+  "item.xvem.star_hoe": "Star Hoe",
+  "item.xvem.star_ingot": "Star Ingot",
+  "item.xvem.star_pickaxe": "Star Pickaxe",
+  "item.xvem.star_shovel": "Star Shovel",
+  "item.xvem.star_sword": "Star Sword",
+  "item.xvem.steel_ingot": "Steel Ingot",
+  "item.xvem.super_express_train": "Super Express Train",
+
+  "itemGroup.xvem.industry_tab": "Industry",
+  "itemGroup.xvem.material_tab": "Materials",
+  "itemGroup.xvem.super_tools_tab": "Super Tools",
+
+  "upgrade.xvem.star_upgrade": "Star Upgrade"
 }

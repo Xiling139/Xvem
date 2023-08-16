@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '0.2.2-1.20.1'
+version = '0.2.3-1.20.1'
 group = 'net.xiling.xvem' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'xvem'
 

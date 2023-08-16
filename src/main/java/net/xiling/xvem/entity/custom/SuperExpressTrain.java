@@ -7,6 +7,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.vehicle.AbstractMinecart;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
+import net.xiling.xvem.entity.ModEntityTypes;
 import net.xiling.xvem.item.ModItems;
 
 public class SuperExpressTrain extends AbstractMinecart {
@@ -15,11 +16,7 @@ public class SuperExpressTrain extends AbstractMinecart {
     }
 
     public SuperExpressTrain(EntityType<?> p_38090_, Level p_38091_, double p_38092_, double p_38093_, double p_38094_) {
-        this(p_38090_, p_38091_);
-        this.setPos(p_38092_, p_38093_, p_38094_);
-        this.xo = p_38092_;
-        this.yo = p_38093_;
-        this.zo = p_38094_;
+        super(ModEntityTypes.SUPER_EXPRESS_TRAIN.get(), p_38091_, p_38092_, p_38093_, p_38094_);
     }
 
     public InteractionResult interact(Player p_38483_, InteractionHand p_38484_) {

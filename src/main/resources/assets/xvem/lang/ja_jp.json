@@ -1,23 +1,31 @@
 {
-  "item.xvem.steel_ingot": "鋼鉄インゴット",
-  "item.xvem.ruby": "ルビー",
-
-  "item.xvem.power_core": "パワーコア",
-  "item.xvem.advanced_power_core": "高級パワーコア",
-
-  "item.xvem.diamond_stick": "ダイヤモンドの棒",
-  "item.xvem.star_pickaxe": "星のツルハシ",
-
-  "item.xvem.express_train": "急行列車",
-  "item.xvem.super_express_train": "特急列車",
-
+  "block.xvem.deepslate_ruby_ore": "深層ルビー鉱石",
   "block.xvem.ruby_block": "ルビーブロック",
   "block.xvem.ruby_ore": "ルビー鉱石",
-  "block.xvem.deepslate_ruby_ore": "深層ルビー鉱石",
-
+  "block.xvem.star_block": "星ブロック",
   "block.xvem.steel_block": "鋼鉄ブロック",
 
-  "itemGroup.material_tab": "原料",
-  "itemGroup.industry_tab": "産業",
-  "itemGroup.super_tools_tab": "高級ツール"
+  "item.xvem.advanced_power_core": "高級パワーコア",
+  "item.xvem.diamond_stick": "ダイヤモンドの棒",
+  "item.xvem.express_train": "急行列車",
+  "item.xvem.power_core": "パワーコア",
+  "item.xvem.ruby": "ルビー",
+  "item.xvem.smithing_template.star_upgrade.additions_slot_description": "星のインゴットを入れる",
+  "item.xvem.smithing_template.star_upgrade.applies_to": "ネザライト装備",
+  "item.xvem.smithing_template.star_upgrade.base_slot_description": "ネザライトの鎧、武器、道具を入れる",
+  "item.xvem.smithing_template.star_upgrade.ingredients": "星のインゴット",
+  "item.xvem.star_axe": "星の斧",
+  "item.xvem.star_hoe": "星のクワ",
+  "item.xvem.star_ingot": "星のインゴット",
+  "item.xvem.star_pickaxe": "星のツルハシ",
+  "item.xvem.star_shovel": "星のシャベル",
+  "item.xvem.star_sword": "星の剣",
+  "item.xvem.steel_ingot": "鋼鉄インゴット",
+  "item.xvem.super_express_train": "特急列車",
+
+  "itemGroup.xvem.industry_tab": "産業",
+  "itemGroup.xvem.material_tab": "原料",
+  "itemGroup.xvem.super_tools_tab": "高級ツール",
+
+  "upgrade.xvem.star_upgrade": "ネザースターアップグレード"
 }

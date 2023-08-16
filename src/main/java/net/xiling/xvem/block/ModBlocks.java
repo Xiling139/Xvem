@@ -33,6 +33,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_DIAMOND_ORE)
                     .strength(6f).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> STAR_BLOCK = registerBlock("star_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)
+                    .strength(70f).requiresCorrectToolForDrops()));
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "xvem:advanced_power_core"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "xvem:express_train"
+    }
+  },
+  "pattern": [
+    " A ",
+    "DED",
+    "DDD"
+  ],
+  "result": {
+    "item": "xvem:super_express_train"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "xvem:star_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": {
+    "item": "xvem:star_shovel"
+  },
+  "template": {
+    "item": "xvem:star_upgrade_smithing_template"
+  }
+}

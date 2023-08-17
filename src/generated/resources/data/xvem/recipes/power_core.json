@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "xvem:ruby"
+    },
+    "S": {
+      "item": "xvem:steel_ingot"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SRS",
+    " S "
+  ],
+  "result": {
+    "item": "xvem:power_core"
+  },
+  "show_notification": true
+}

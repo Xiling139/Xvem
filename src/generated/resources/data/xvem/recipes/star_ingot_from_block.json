@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "xvem:star_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "xvem:star_ingot"
+  }
+}

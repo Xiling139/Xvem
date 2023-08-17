@@ -1,0 +1,6 @@
+// 1.20.1	2023-08-17T21:36:05.934957	Tags for minecraft:block mod id xvem
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
+13aca1ecef69b27bdbe10eee96e3e2e516b1193b data/minecraft/tags/blocks/mineable/pickaxe.json
+93b24c4892359e72be8db943235ad85255c46c1a data/minecraft/tags/blocks/needs_iron_tool.json
+2fc8ae03deea39e49c243b8c68b879282d892b33 data/minecraft/tags/blocks/needs_stone_tool.json
+006a20336173d128b883642620ef2b38a5bebe9c data/xvem/tags/blocks/needs_star_tool.json

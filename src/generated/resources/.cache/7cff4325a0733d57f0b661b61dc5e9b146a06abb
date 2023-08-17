@@ -1,0 +1,16 @@
+// 1.20.1	2023-08-17T21:36:05.9369588	Block States: xvem
+7151f5e0068f5cefa95c6356160e69122efd3ec7 assets/xvem/blockstates/deepslate_ruby_ore.json
+27ea5bd62786ceff28c4996f38556614d32c6aa5 assets/xvem/blockstates/ruby_block.json
+76694518923f13750becbb4e57c550e0c9a8095a assets/xvem/blockstates/ruby_ore.json
+86923c3405ae931151bee52fd09b119974fa6aea assets/xvem/blockstates/star_block.json
+929f64d6f5728f68bd85ecea8dfd4739768eae0e assets/xvem/blockstates/steel_block.json
+3b699b94c4da67c3ae1c06a27bda997bed35b5f3 assets/xvem/models/block/deepslate_ruby_ore.json
+c3856c15873dd05231afd552a636eb441e5bf3f1 assets/xvem/models/block/ruby_block.json
+eb6f2a3ba6dcda52a6862fb1272270c32a94ceb0 assets/xvem/models/block/ruby_ore.json
+538a0fb7d66e2d0de3aad8bcb79dc10c8e3aae0d assets/xvem/models/block/star_block.json
+63db6493911a963d504291316a94d17ebb2e9d92 assets/xvem/models/block/steel_block.json
+c6e0207f88f17733451d861a3e361309e92dd7d3 assets/xvem/models/item/deepslate_ruby_ore.json
+fd2f1ca900b5d1481716633c205c3d17b57f7611 assets/xvem/models/item/ruby_block.json
+a74a9148e23724f463acdba43edd19748d965fc3 assets/xvem/models/item/ruby_ore.json
+b98b47f54be4fa5850215883f6cbf495cf250833 assets/xvem/models/item/star_block.json
+351b82b1431fedadc68076ccc70bac44ca9b54ad assets/xvem/models/item/steel_block.json

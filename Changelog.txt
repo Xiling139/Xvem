@@ -6,3 +6,8 @@
 version 0.2.5
 
 - Star Tools are no longer burned by fire
+
+version 0.2.6
+
+- Reduced Speed of Express Train and Super Express Train
+- Changed Recipes of some items

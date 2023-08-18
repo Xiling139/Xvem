@@ -10,9 +10,16 @@ version 0.2.5
 version 0.2.6
 
 - Reduced Speed of Express Train and Super Express Train
-- Changed Recipes of some items
+    - Express Train: 40 km/h -> 36 km/h
+    - Super Express Train: 60 km/h -> 45 km/h
+- Changed Recipes of Star Upgrade Smithing Template
+    - gold ingot *4, netherite ingot *2, netherite upgrade smithing template, diamond block, diamond stick
 
 08/18/2023: version 0.2.7
 
 - Added Ruby Ore generation
     - Max Size: 6, Height Range: -64 to 32 (Most found in -16), 12 veins per chunk
+
+version 0.2.8
+
+- Changed the format of this Changelog

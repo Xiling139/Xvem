@@ -11,3 +11,8 @@ version 0.2.6
 
 - Reduced Speed of Express Train and Super Express Train
 - Changed Recipes of some items
+
+08/18/2023: version 0.2.7
+
+- Added Ruby Ore generation
+    - Max Size: 6, Height Range: -64 to 32 (Most found in -16), 12 veins per chunk

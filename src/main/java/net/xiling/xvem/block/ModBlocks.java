@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.xiling.xvem.XilingsMod;
+import net.xiling.xvem.block.custom.CoalGeneratorBlock;
 import net.xiling.xvem.item.ModItems;
 
 import java.util.function.Supplier;
@@ -36,6 +37,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> STAR_BLOCK = registerBlock("star_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)
                     .strength(70f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> MACHINE_FRAME = registerBlock("machine_frame",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(4f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> COAL_GENERATOR = registerBlock("coal_generator",
+            () -> new CoalGeneratorBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(5f).requiresCorrectToolForDrops()));
 
 
 

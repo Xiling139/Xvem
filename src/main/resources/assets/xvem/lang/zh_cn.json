@@ -1,9 +1,13 @@
 {
+  "block.xvem.coal_generator": "煤炭生成器",
   "block.xvem.deepslate_ruby_ore": "深层红宝石矿石",
+  "block.xvem.machine_frame": "机械框架",
   "block.xvem.ruby_block": "红宝石方块",
   "block.xvem.ruby_ore": "红宝石矿石",
   "block.xvem.star_block": "星方块",
   "block.xvem.steel_block": "钢铁方块",
+
+  "container.coal_generator": "煤炭生成器",
 
   "item.xvem.advanced_power_core": "高级力量核心",
   "item.xvem.diamond_stick": "钻石棍",
@@ -23,9 +27,9 @@
   "item.xvem.steel_ingot": "钢铁锭",
   "item.xvem.super_express_train": "特快列车",
 
-  "itemGroup.xvem.industry_tab": "产业",
-  "itemGroup.xvem.material_tab": "原材料",
-  "itemGroup.xvem.super_tools_tab": "高级工具",
+  "itemGroup.industry": "产业",
+  "itemGroup.material": "原材料",
+  "itemGroup.super_tools": "高级工具",
 
   "upgrade.xvem.star_upgrade": "下界星升级"
 }

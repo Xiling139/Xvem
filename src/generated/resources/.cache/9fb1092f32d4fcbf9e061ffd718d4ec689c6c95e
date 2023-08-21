@@ -1,9 +1,11 @@
-// 1.20.1	2023-08-17T21:53:16.3419272	Recipes
+// 1.20.1	2023-08-21T12:47:22.2106199	Recipes
+13f9b182bdfe15e95899f030ca5456d157075f30 data/xvem/advancements/recipes/building_blocks/machine_frame.json
 adf0f9f0eabcb81c6c4f8b32f6f4a42a857995aa data/xvem/advancements/recipes/building_blocks/ruby_block.json
 8e2318dd63116772f3f290ed5dfb7b836060e2e7 data/xvem/advancements/recipes/building_blocks/star_block.json
 3f24c2df1f35e1274b93519aa6d40eb53f7d43b8 data/xvem/advancements/recipes/building_blocks/steel_block.json
 cb9caaa15c59ef8b64f4b767e30f78198b24a84e data/xvem/advancements/recipes/combat/star_sword_smithing.json
 b74fd82704f1e2f346794e830a4479fdb01ab9d0 data/xvem/advancements/recipes/misc/advanced_power_core.json
+5eb3dc97f6bd848356b2e6cb324b8df51a19ee14 data/xvem/advancements/recipes/misc/coal_generator.json
 eb758ca34e08f42221acd6136f4d10c54557e382 data/xvem/advancements/recipes/misc/diamond_stick.json
 d5448358729fd3b18783a37a3200ad651a889e7a data/xvem/advancements/recipes/misc/power_core.json
 5828214373fd64ecde4812b6c7b64bddaa565310 data/xvem/advancements/recipes/misc/ruby.json
@@ -19,8 +21,10 @@ f80a0e45ae112d05ac4beca0b86aff9f19a090d3 data/xvem/advancements/recipes/tools/st
 b2a0787edfbe6b5537721c83c92957f545150f07 data/xvem/advancements/recipes/transportation/express_train.json
 edba12359f7b6fa5f0e4d7fdfbc9dfa37bcd0d74 data/xvem/advancements/recipes/transportation/super_express_train.json
 7d8fe791e7cf25327036d26e9954610d2af448c0 data/xvem/recipes/advanced_power_core.json
+2a062a32cdd28307f8cf81f9f8bfa52bf12871a3 data/xvem/recipes/coal_generator.json
 4d19a8b9427924ca644ea6879698ac97e68b5eae data/xvem/recipes/diamond_stick.json
 72f2ae88517d2dd494c5675c6d2b68ffd79ebbf1 data/xvem/recipes/express_train.json
+d9cbce3da92efd33bfaadee262614792d3241581 data/xvem/recipes/machine_frame.json
 42b0a95ed51e6a9cb1247091ef3b6ff3f955cddc data/xvem/recipes/power_core.json
 af277b44278503f1ccab1b6cc7ee885cf2c1079f data/xvem/recipes/ruby.json
 a642a6e1f2032b5e4ec43c3006e0e1e08aa39db8 data/xvem/recipes/ruby_block.json

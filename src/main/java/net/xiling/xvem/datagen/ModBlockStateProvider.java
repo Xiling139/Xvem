@@ -20,6 +20,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.DEEPSLATE_RUBY_ORE);
         blockWithItem(ModBlocks.RUBY_BLOCK);
         blockWithItem(ModBlocks.STAR_BLOCK);
+        blockWithItem(ModBlocks.MACHINE_FRAME);
+        blockWithItem(ModBlocks.COAL_GENERATOR);
 
     }
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "S": {
+      "item": "xvem:steel_ingot"
+    }
+  },
+  "pattern": [
+    "S S",
+    " # ",
+    "S S"
+  ],
+  "result": {
+    "item": "xvem:machine_frame"
+  },
+  "show_notification": true
+}

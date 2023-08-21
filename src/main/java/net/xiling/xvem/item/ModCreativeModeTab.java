@@ -14,13 +14,13 @@ public class ModCreativeModeTab {
             XilingsMod.MOD_ID);
 
     public static RegistryObject<CreativeModeTab> MATERIAL_TAB = CREATIVE_MODE_TABS.register("material_tab", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get())).title(Component.translatable("Materials")).build());
+            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get())).title(Component.translatable("itemGroup.material")).build());
 
     public static RegistryObject<CreativeModeTab> INDUSTRY_TAB = CREATIVE_MODE_TABS.register("industry_tab", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.POWER_CORE.get())).title(Component.translatable("Industry")).build());
+            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.POWER_CORE.get())).title(Component.translatable("itemGroup.industry")).build());
 
     public static RegistryObject<CreativeModeTab> SUPER_TOOLS_TAB = CREATIVE_MODE_TABS.register("super_tools_tab", () ->
-            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STAR_PICKAXE.get())).title(Component.translatable("Super Tools")).build());;
+            CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STAR_PICKAXE.get())).title(Component.translatable("itemGroup.super_tools")).build());;
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

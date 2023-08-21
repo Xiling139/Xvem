@@ -23,3 +23,8 @@ version 0.2.6
 version 0.2.8
 
 - Changed the format of this Changelog
+
+08/21/2023: version 0.3.0
+
+- Added Coal Generator
+    - Generates 1 coal every 18 seconds

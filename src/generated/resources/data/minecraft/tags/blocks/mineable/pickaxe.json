@@ -4,6 +4,8 @@
     "xvem:ruby_block",
     "xvem:ruby_ore",
     "xvem:deepslate_ruby_ore",
-    "xvem:star_block"
+    "xvem:star_block",
+    "xvem:machine_frame",
+    "xvem:coal_generator"
   ]
 }

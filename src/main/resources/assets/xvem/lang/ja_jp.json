@@ -1,9 +1,13 @@
 {
+  "block.xvem.coal_generator": "石炭生成器",
   "block.xvem.deepslate_ruby_ore": "深層ルビー鉱石",
+  "block.xvem.machine_frame": "マシンフレーム",
   "block.xvem.ruby_block": "ルビーブロック",
   "block.xvem.ruby_ore": "ルビー鉱石",
   "block.xvem.star_block": "星ブロック",
   "block.xvem.steel_block": "鋼鉄ブロック",
+
+  "container.coal_generator": "石炭生成器",
 
   "item.xvem.advanced_power_core": "高級パワーコア",
   "item.xvem.diamond_stick": "ダイヤモンドの棒",
@@ -23,9 +27,9 @@
   "item.xvem.steel_ingot": "鋼鉄インゴット",
   "item.xvem.super_express_train": "特急列車",
 
-  "itemGroup.xvem.industry_tab": "産業",
-  "itemGroup.xvem.material_tab": "原料",
-  "itemGroup.xvem.super_tools_tab": "高級ツール",
+  "itemGroup.industry": "産業",
+  "itemGroup.material": "原料",
+  "itemGroup.super_tools": "高級ツール",
 
   "upgrade.xvem.star_upgrade": "ネザースターアップグレード"
 }

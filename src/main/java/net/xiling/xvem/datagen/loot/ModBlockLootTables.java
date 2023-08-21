@@ -19,6 +19,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.STEEL_BLOCK.get());
         this.dropSelf(ModBlocks.RUBY_BLOCK.get());
         this.dropSelf(ModBlocks.STAR_BLOCK.get());
+        this.dropSelf(ModBlocks.MACHINE_FRAME.get());
+        this.dropSelf(ModBlocks.COAL_GENERATOR.get());
 
         this.add(ModBlocks.RUBY_ORE.get(),
                 block -> createOreDrop(ModBlocks.RUBY_ORE.get(), ModItems.RUBY.get()));

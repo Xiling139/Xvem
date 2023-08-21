@@ -1,8 +1,9 @@
 {
   "block.xvem.deepslate_ruby_ore": "深層紅寶石礦石",
+  "block.xvem.machine_frame": "機械框架",
   "block.xvem.ruby_block": "紅寶石方塊",
   "block.xvem.ruby_ore": "紅寶石礦石",
-  "block.xvem.star_block": "Star Block",
+  "block.xvem.star_block": "星方塊",
   "block.xvem.steel_block": "鋼鐵方塊",
 
   "item.xvem.advanced_power_core": "高級力量核心",
@@ -10,22 +11,22 @@
   "item.xvem.express_train": "快速列車",
   "item.xvem.power_core": "力量核心",
   "item.xvem.ruby": "紅寶石",
-  "item.xvem.smithing_template.star_upgrade.additions_slot_description": "Add Nether Star",
+  "item.xvem.smithing_template.star_upgrade.additions_slot_description": "放入星錠",
   "item.xvem.smithing_template.star_upgrade.applies_to": "下界合金裝備",
-  "item.xvem.smithing_template.star_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
-  "item.xvem.smithing_template.star_upgrade.ingredients": "下界之星",
+  "item.xvem.smithing_template.star_upgrade.base_slot_description": "放入下界合金盔甲，武器或工具",
+  "item.xvem.smithing_template.star_upgrade.ingredients": "星錠",
   "item.xvem.star_axe": "星斧",
   "item.xvem.star_hoe": "星鋤",
-  "item.xvem.star_ingot": "Star Ingot",
+  "item.xvem.star_ingot": "星錠",
   "item.xvem.star_pickaxe": "星鎬",
   "item.xvem.star_shovel": "星鍫",
   "item.xvem.star_sword": "星劍",
   "item.xvem.steel_ingot": "鋼鐵錠",
   "item.xvem.super_express_train": "特快列車",
 
-  "itemGroup.xvem.industry_tab": "產業",
-  "itemGroup.xvem.material_tab": "原材料",
-  "itemGroup.xvem.super_tools_tab": "高級工具",
+  "itemGroup.industry": "產業",
+  "itemGroup.material": "原材料",
+  "itemGroup.super_tools": "高級工具",
 
-  "upgrade.xvem.star_upgrade": "Star Upgrade"
+  "upgrade.xvem.star_upgrade": "裝備星升級"
 }

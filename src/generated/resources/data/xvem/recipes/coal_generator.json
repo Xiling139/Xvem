@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "M": {
+      "item": "xvem:machine_frame"
+    },
+    "P": {
+      "item": "xvem:power_core"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CMC",
+    "CPC"
+  ],
+  "result": {
+    "item": "xvem:coal_generator"
+  },
+  "show_notification": true
+}

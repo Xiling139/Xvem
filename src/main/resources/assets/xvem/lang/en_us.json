@@ -1,9 +1,13 @@
 {
+  "block.xvem.coal_generator": "Coal Generator",
   "block.xvem.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.xvem.machine_frame": "Machine Frame",
   "block.xvem.ruby_block": "Block of Ruby",
   "block.xvem.ruby_ore": "Ruby ore",
   "block.xvem.star_block": "Star Block",
   "block.xvem.steel_block": "Block of Steel",
+
+  "container.coal_generator": "Coal Generator",
 
   "item.xvem.advanced_power_core": "Advanced Power Core",
   "item.xvem.diamond_stick": "Diamond Stick",
@@ -23,9 +27,9 @@
   "item.xvem.steel_ingot": "Steel Ingot",
   "item.xvem.super_express_train": "Super Express Train",
 
-  "itemGroup.xvem.industry_tab": "Industry",
-  "itemGroup.xvem.material_tab": "Materials",
-  "itemGroup.xvem.super_tools_tab": "Super Tools",
+  "itemGroup.industry": "Industry",
+  "itemGroup.material": "Material",
+  "itemGroup.super_tools": "Super Tools",
 
   "upgrade.xvem.star_upgrade": "Star Upgrade"
 }

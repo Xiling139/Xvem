@@ -6,6 +6,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Blocks;
 import net.xiling.xvem.XilingsMod;
 import net.xiling.xvem.block.ModBlocks;
 import net.xiling.xvem.item.ModItems;
@@ -28,6 +29,16 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy(getHasName(ModItems.POWER_CORE.get()), has(ModItems.POWER_CORE.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.COAL_GENERATOR.get())
+                .pattern("CCC")
+                .pattern("CMC")
+                .pattern("CPC")
+                .define('C', Items.COAL_BLOCK)
+                .define('M', ModBlocks.MACHINE_FRAME.get())
+                .define('P', ModItems.POWER_CORE.get())
+                .unlockedBy(getHasName(Items.COAL_BLOCK), has(Items.COAL_BLOCK))
+                .save(pWriter);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIAMOND_STICK.get())
                 .pattern("D")
                 .pattern("D")
@@ -44,6 +55,15 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('M', Items.MINECART)
                 .define('G', Items.GOLD_INGOT)
                 .unlockedBy(getHasName(Items.MINECART), has(Items.MINECART))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MACHINE_FRAME.get())
+                .pattern("S S")
+                .pattern(" # ")
+                .pattern("S S")
+                .define('S', ModItems.STEEL_INGOT.get())
+                .define('#', Items.STONE)
+                .unlockedBy(getHasName(ModItems.STEEL_INGOT.get()), has(ModItems.STEEL_INGOT.get()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.POWER_CORE.get())

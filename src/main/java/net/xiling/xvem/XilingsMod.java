@@ -1,6 +1,7 @@
 package net.xiling.xvem;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
@@ -13,6 +14,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.xiling.xvem.block.ModBlocks;
 import net.xiling.xvem.block.VanillaBlocks;
+import net.xiling.xvem.block.entity.ModBlockEntities;
 import net.xiling.xvem.entity.ModEntityTypes;
 import net.xiling.xvem.entity.client.ExpressTrainModel;
 import net.xiling.xvem.entity.client.ExpressTrainRenderer;
@@ -20,6 +22,8 @@ import net.xiling.xvem.entity.client.SuperExpressTrainModel;
 import net.xiling.xvem.entity.client.SuperExpressTrainRenderer;
 import net.xiling.xvem.item.ModCreativeModeTab;
 import net.xiling.xvem.item.ModItems;
+import net.xiling.xvem.screen.CoalGeneratorScreen;
+import net.xiling.xvem.screen.ModMenuTypes;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -40,6 +44,8 @@ public class XilingsMod {
         VanillaBlocks.register(modEventBus);
 
         ModEntityTypes.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -70,6 +76,8 @@ public class XilingsMod {
             event.accept(ModItems.ADVENCED_POWER_CORE);
             event.accept(ModItems.EXPRESS_TRAIN);
             event.accept(ModItems.SUPER_EXPRESS_TRAIN);
+            event.accept(ModBlocks.MACHINE_FRAME);
+            event.accept(ModBlocks.COAL_GENERATOR);
 
         }
 
@@ -91,6 +99,8 @@ public class XilingsMod {
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntityTypes.EXPRESS_TRAIN.get(), ExpressTrainRenderer::new);
             EntityRenderers.register(ModEntityTypes.SUPER_EXPRESS_TRAIN.get(), SuperExpressTrainRenderer::new);
+
+            MenuScreens.register(ModMenuTypes.COAL_GENERATOR_MENU.get(), CoalGeneratorScreen::new);
         }
 
         @SubscribeEvent

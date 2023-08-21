@@ -25,7 +25,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.RUBY_BLOCK.get(),
                         ModBlocks.RUBY_ORE.get(),
                         ModBlocks.DEEPSLATE_RUBY_ORE.get(),
-                        ModBlocks.STAR_BLOCK.get());
+                        ModBlocks.STAR_BLOCK.get(),
+                        ModBlocks.MACHINE_FRAME.get(),
+                        ModBlocks.COAL_GENERATOR.get());
+
 
         this.tag(ModTags.Blocks.NEEDS_STAR_TOOL)
                 .add(ModBlocks.STAR_BLOCK.get());
